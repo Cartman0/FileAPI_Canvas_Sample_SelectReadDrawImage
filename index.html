@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>FileAPI で画像を選択またはドラッグ&ドロップし、Canvasで表示</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>FileAPI で画像を選択またはドラッグ&ドロップし、Canvasで表示</h1>
+    <p>画像を選択！</p>
+    <input type="file" id="file-image" accept="image/*">
+    <p>or</p>
+    <div id="drop-zone">ここにドロップ！</div>
+    <div id="print_img">
+      <p id="width-height">width: height: </p>
+      <p>Canvas(max-width:100%)</p>
+      <canvas id="mycanvas">Canvas対応のブラウザで開いて下さい。</canvas>
+    </div>
+
+    <script src="drawImgonCanvas.js"></script>
+  </body>
+</html>
